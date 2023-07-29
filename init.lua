@@ -1,0 +1,5 @@
+local wd = pathf("#1")
+local port = register_service("python-eval", function(p)
+    return string.format("python -u %s -p %d", pathf(wd, "../python/main.py"), p)
+end)
+yocki.connect("python-eval", "localhost", port)

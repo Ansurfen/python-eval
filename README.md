@@ -1,2 +1,6 @@
 # python-eval
-python service binding for yock
+
+## Install
+```bash
+ypm install github.tag/ansurfen/python-eval@1.0.0
+```
